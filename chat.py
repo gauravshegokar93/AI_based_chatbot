@@ -1,11 +1,12 @@
 import openai
 
 # Set up the OpenAI API client
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Set up the model and prompt
 model_engine="text-davinci-003"
 prompt = str(input("Enter your command: "))
+
 
 # Generate a response
 
